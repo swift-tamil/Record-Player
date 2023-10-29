@@ -11,6 +11,10 @@
 		394F96842AEE671B00B409F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F96832AEE671B00B409F9 /* ContentView.swift */; };
 		394F96862AEE671D00B409F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394F96852AEE671D00B409F9 /* Assets.xcassets */; };
 		394F96892AEE671D00B409F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394F96882AEE671D00B409F9 /* Preview Assets.xcassets */; };
+		394F96902AEE67BA00B409F9 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 394F968F2AEE67BA00B409F9 /* music.m4a */; };
+		394F96952AEE6A2500B409F9 /* RecardPlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F96942AEE6A2500B409F9 /* RecardPlayerBox.swift */; };
+		394F96972AEE6AFF00B409F9 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F96962AEE6AFF00B409F9 /* RecordView.swift */; };
+		394F96992AEE6CE400B409F9 /* ArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394F96982AEE6CE300B409F9 /* ArmView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		394F96832AEE671B00B409F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		394F96852AEE671D00B409F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		394F96882AEE671D00B409F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		394F968F2AEE67BA00B409F9 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		394F96942AEE6A2500B409F9 /* RecardPlayerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecardPlayerBox.swift; sourceTree = "<group>"; };
+		394F96962AEE6AFF00B409F9 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		394F96982AEE6CE300B409F9 /* ArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		394F96802AEE671B00B409F9 /* Record Player */ = {
 			isa = PBXGroup;
 			children = (
+				394F96932AEE67FE00B409F9 /* Views */,
 				394F96812AEE671B00B409F9 /* Record_PlayerApp.swift */,
 				394F96832AEE671B00B409F9 /* ContentView.swift */,
+				394F968F2AEE67BA00B409F9 /* music.m4a */,
 				394F96852AEE671D00B409F9 /* Assets.xcassets */,
 				394F96872AEE671D00B409F9 /* Preview Content */,
 			);
@@ -65,6 +75,16 @@
 				394F96882AEE671D00B409F9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		394F96932AEE67FE00B409F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				394F96942AEE6A2500B409F9 /* RecardPlayerBox.swift */,
+				394F96962AEE6AFF00B409F9 /* RecordView.swift */,
+				394F96982AEE6CE300B409F9 /* ArmView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +147,7 @@
 			files = (
 				394F96892AEE671D00B409F9 /* Preview Assets.xcassets in Resources */,
 				394F96862AEE671D00B409F9 /* Assets.xcassets in Resources */,
+				394F96902AEE67BA00B409F9 /* music.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				394F96842AEE671B00B409F9 /* ContentView.swift in Sources */,
+				394F96972AEE6AFF00B409F9 /* RecordView.swift in Sources */,
+				394F96992AEE6CE400B409F9 /* ArmView.swift in Sources */,
 				394F96822AEE671B00B409F9 /* Record_PlayerApp.swift in Sources */,
+				394F96952AEE6A2500B409F9 /* RecardPlayerBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
